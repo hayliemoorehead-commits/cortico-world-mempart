@@ -1,0 +1,27 @@
+{
+  "name": "cortico-world-mempart",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cortico World 扩展：记忆分区——文档《上下文记忆系统》的 T0–T9 分层记忆实现:原文冷层 gzip 永久保存、短卡热/温层、时间衰减+访问频率升降、混合检索、source_id 回取原话。",
+  "license": "MIT",
+  "keywords": [
+    "cortico-world",
+    "cortico",
+    "memory",
+    "tiered-memory",
+    "recall"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./src/index.ts",
+  "cortico": {
+    "kind": "world",
+    "api": 5
+  },
+  "files": [
+    "src",
+    "ENV_PROMPT.md",
+    "README.md"
+  ]
+}
